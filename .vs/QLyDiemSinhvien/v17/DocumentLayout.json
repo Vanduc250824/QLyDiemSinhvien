@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\conntroller\\giangviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:conntroller\\giangviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\model\\giangvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:model\\giangvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\conntroller\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:conntroller\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\model\\sinhvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:model\\sinhvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\connection\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:connection\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\qlydiemsinhvien.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:qlydiemsinhvien.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "giangviencontroller.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\giangviencontroller.cs",
+              "RelativeDocumentMoniker": "Conntroller\\giangviencontroller.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\giangviencontroller.cs",
+              "RelativeToolTip": "Conntroller\\giangviencontroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:48:54.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "giangvienmodel.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Model\\giangvienmodel.cs",
+              "RelativeDocumentMoniker": "Model\\giangvienmodel.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Model\\giangvienmodel.cs",
+              "RelativeToolTip": "Model\\giangvienmodel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:33:22.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sinhvienmodel.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Model\\sinhvienmodel.cs",
+              "RelativeDocumentMoniker": "Model\\sinhvienmodel.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Model\\sinhvienmodel.cs",
+              "RelativeToolTip": "Model\\sinhvienmodel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:09:38.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sinhviencontroller.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\sinhviencontroller.cs",
+              "RelativeDocumentMoniker": "Conntroller\\sinhviencontroller.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\sinhviencontroller.cs",
+              "RelativeToolTip": "Conntroller\\sinhviencontroller.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowIkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:07:52.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:03:18.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Connect.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Connection\\Connect.cs",
+              "RelativeDocumentMoniker": "Connection\\Connect.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Connection\\Connect.cs",
+              "RelativeToolTip": "Connection\\Connect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T08:51:24.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QLyDiemSinhvien",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\QLyDiemSinhvien.csproj",
+              "RelativeDocumentMoniker": "QLyDiemSinhvien.csproj",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\QLyDiemSinhvien.csproj",
+              "RelativeToolTip": "QLyDiemSinhvien.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-06T08:51:18.47Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

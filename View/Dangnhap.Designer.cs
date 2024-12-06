@@ -28,18 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            button1 = new Button();
             SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Image = Properties.Resources.logo_Trường_học;
+            button1.Location = new Point(-2, -2);
+            button1.Name = "button1";
+            button1.Size = new Size(560, 627);
+            button1.TabIndex = 0;
+            button1.UseVisualStyleBackColor = true;
             // 
             // Dangnhap
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1068, 623);
+            Controls.Add(button1);
             Name = "Dangnhap";
             Text = "Đăng nhập";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button button1;
     }
 }

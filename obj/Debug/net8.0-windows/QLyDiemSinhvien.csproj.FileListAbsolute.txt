@@ -1,0 +1,9 @@
+D:\Code Lung Tung\C and C++\C#\QLyDiemSinhvien\obj\Debug\net8.0-windows\QLyDiemSinhvien.csproj.AssemblyReference.cache
+D:\Code Lung Tung\C and C++\C#\QLyDiemSinhvien\obj\Debug\net8.0-windows\QLyDiemSinhvien.Dangnhap.resources
+D:\Code Lung Tung\C and C++\C#\QLyDiemSinhvien\obj\Debug\net8.0-windows\QLyDiemSinhvien.Properties.Resources.resources
+D:\Code Lung Tung\C and C++\C#\QLyDiemSinhvien\obj\Debug\net8.0-windows\QLyDiemSinhvien.csproj.GenerateResource.cache
+D:\Code Lung Tung\C and C++\C#\QLyDiemSinhvien\obj\Debug\net8.0-windows\QLyDiemSinhvien.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code Lung Tung\C and C++\C#\QLyDiemSinhvien\obj\Debug\net8.0-windows\QLyDiemSinhvien.AssemblyInfoInputs.cache
+D:\Code Lung Tung\C and C++\C#\QLyDiemSinhvien\obj\Debug\net8.0-windows\QLyDiemSinhvien.AssemblyInfo.cs
+D:\Code Lung Tung\C and C++\C#\QLyDiemSinhvien\obj\Debug\net8.0-windows\QLyDiemSinhvien.csproj.CoreCompileInputs.cache
+D:\Code Lung Tung\C and C++\C#\QLyDiemSinhvien\obj\Debug\net8.0-windows\QLyDiemSinhvien.sourcelink.json
