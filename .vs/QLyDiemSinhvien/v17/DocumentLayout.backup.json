@@ -3,20 +3,60 @@
   "WorkspaceRootPath": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\view\\frmquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:view\\frmquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\view\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:view\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\view\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:view\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\view\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:view\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\view\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:view\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\model\\accountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:model\\accountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\conntroller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:conntroller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\connection\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:connection\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\qlydiemsinhvien.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:qlydiemsinhvien.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\conntroller\\giangviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:conntroller\\giangviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\conntroller\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:conntroller\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\conntroller\\monhoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:conntroller\\monhoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\conntroller\\diemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:conntroller\\diemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|d:\\code lung tung\\c and c\u002B\u002B\\c#\\qlydiemsinhvien\\view\\frmdangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20059B1B-1818-4F43-9C1B-2235BE9BD476}|QLyDiemSinhvien.csproj|solutionrelative:view\\frmdangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,53 +82,182 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Connect.cs",
               "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Connection\\Connect.cs",
               "RelativeDocumentMoniker": "Connection\\Connect.cs",
               "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Connection\\Connect.cs",
               "RelativeToolTip": "Connection\\Connect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T08:51:24.667Z",
+              "WhenOpened": "2024-12-08T16:54:19.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QLyDiemSinhvien",
-              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\QLyDiemSinhvien.csproj",
-              "RelativeDocumentMoniker": "QLyDiemSinhvien.csproj",
-              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\QLyDiemSinhvien.csproj",
-              "RelativeToolTip": "QLyDiemSinhvien.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-06T08:51:18.47Z",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:53:13.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dangnhap.cs",
-              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Dangnhap.cs",
-              "RelativeDocumentMoniker": "Dangnhap.cs",
-              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Dangnhap.cs*",
-              "RelativeToolTip": "Dangnhap.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "giangviencontroller.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\giangviencontroller.cs",
+              "RelativeDocumentMoniker": "Conntroller\\giangviencontroller.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\giangviencontroller.cs",
+              "RelativeToolTip": "Conntroller\\giangviencontroller.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAArwHAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T08:30:52.785Z",
+              "WhenOpened": "2024-12-08T17:53:16.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "accountcontroller.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\accountcontroller.cs",
+              "RelativeDocumentMoniker": "Conntroller\\accountcontroller.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\accountcontroller.cs",
+              "RelativeToolTip": "Conntroller\\accountcontroller.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:43:44.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Dangnhap.cs [Design]",
-              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Dangnhap.cs",
-              "RelativeDocumentMoniker": "Dangnhap.cs",
-              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Dangnhap.cs [Design]*",
-              "RelativeToolTip": "Dangnhap.cs [Design]*",
+              "Title": "FrmDangnhap.cs [Design]",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmDangnhap.cs",
+              "RelativeDocumentMoniker": "View\\FrmDangnhap.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmDangnhap.cs [Design]",
+              "RelativeToolTip": "View\\FrmDangnhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T08:28:20.834Z",
+              "WhenOpened": "2024-12-08T17:55:40.251Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmDangnhap.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmDangnhap.cs",
+              "RelativeDocumentMoniker": "View\\FrmDangnhap.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmDangnhap.cs",
+              "RelativeToolTip": "View\\FrmDangnhap.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwC4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:55:41.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmQuanly.cs [Design]",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmQuanly.cs",
+              "RelativeDocumentMoniker": "View\\FrmQuanly.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmQuanly.cs [Design]",
+              "RelativeToolTip": "View\\FrmQuanly.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:55:39.491Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmDangky.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmDangky.cs",
+              "RelativeDocumentMoniker": "View\\FrmDangky.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmDangky.cs",
+              "RelativeToolTip": "View\\FrmDangky.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswEUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:30:11.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "accountmodel.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Model\\accountmodel.cs",
+              "RelativeDocumentMoniker": "Model\\accountmodel.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Model\\accountmodel.cs",
+              "RelativeToolTip": "Model\\accountmodel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:54:10.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmDangky.cs [Design]",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmDangky.cs",
+              "RelativeDocumentMoniker": "View\\FrmDangky.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmDangky.cs [Design]",
+              "RelativeToolTip": "View\\FrmDangky.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:52:38.971Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "sinhviencontroller.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\sinhviencontroller.cs",
+              "RelativeDocumentMoniker": "Conntroller\\sinhviencontroller.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\sinhviencontroller.cs",
+              "RelativeToolTip": "Conntroller\\sinhviencontroller.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAnwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:53:40.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "monhoccontroller.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\monhoccontroller.cs",
+              "RelativeDocumentMoniker": "Conntroller\\monhoccontroller.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\monhoccontroller.cs",
+              "RelativeToolTip": "Conntroller\\monhoccontroller.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAnwG8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:53:28.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "diemcontroller.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\diemcontroller.cs",
+              "RelativeDocumentMoniker": "Conntroller\\diemcontroller.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\Conntroller\\diemcontroller.cs",
+              "RelativeToolTip": "Conntroller\\diemcontroller.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAArwGwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:53:04.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmDangky.Designer.cs",
+              "DocumentMoniker": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmDangky.Designer.cs",
+              "RelativeDocumentMoniker": "View\\FrmDangky.Designer.cs",
+              "ToolTip": "D:\\Code Lung Tung\\C and C\u002B\u002B\\C#\\QLyDiemSinhvien\\View\\FrmDangky.Designer.cs",
+              "RelativeToolTip": "View\\FrmDangky.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:54:56.413Z",
+              "EditorCaption": ""
             }
           ]
         },

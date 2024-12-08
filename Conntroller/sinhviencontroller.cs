@@ -33,11 +33,11 @@ namespace QLyDiemSinhvien.Conntroller
                         {
                             sinhvienmodel sv = new sinhvienmodel
                             {
-                                maSV = !reader.IsDBNull(0) ? reader.GetInt32(0) : 0,
-                                tenSV = !reader.IsDBNull(1) ? reader.GetString(1) : string.Empty,
-                                ngaysinh = !reader.IsDBNull(2) ? reader.GetDateTime(2) : DateTime.MinValue,
-                                quequan = !reader.IsDBNull(3) ? reader.GetString(3) : string.Empty,
-                                lophoc = !reader.IsDBNull(4) ? reader.GetString(4) : string.Empty
+                                MaSV = !reader.IsDBNull(0) ? reader.GetInt32(0) : 0,
+                                TenSV = !reader.IsDBNull(1) ? reader.GetString(1) : string.Empty,
+                                NgaySinh = !reader.IsDBNull(2) ? reader.GetDateTime(2) : DateTime.MinValue,
+                                QueQuan = !reader.IsDBNull(3) ? reader.GetString(3) : string.Empty,
+                                LopHoc = !reader.IsDBNull(4) ? reader.GetString(4) : string.Empty
                             };
                             sinhvienList.Add(sv);
                         }
@@ -63,10 +63,10 @@ namespace QLyDiemSinhvien.Conntroller
                 conn.OpenConnection();
                 using (SqlCommand command = new SqlCommand(sql, conn.GetConnection()))
                 {
-                    command.Parameters.AddWithValue("@tensv", sv.tenSV);
-                    command.Parameters.AddWithValue("@ngaysinh", sv.ngaysinh);
-                    command.Parameters.AddWithValue("@quequan", sv.quequan);
-                    command.Parameters.AddWithValue("@lophoc", sv.lophoc);
+                    command.Parameters.AddWithValue("@tensv", sv.TenSV);
+                    command.Parameters.AddWithValue("@ngaysinh", sv.NgaySinh);
+                    command.Parameters.AddWithValue("@quequan", sv.QueQuan);
+                    command.Parameters.AddWithValue("@lophoc", sv.LopHoc);
                     
                     int rowAffected = command.ExecuteNonQuery();
                     return rowAffected > 0;
@@ -90,11 +90,11 @@ namespace QLyDiemSinhvien.Conntroller
                 conn.OpenConnection();
                 using (SqlCommand command = new SqlCommand(sql, conn.GetConnection()))
                 {
-                    command.Parameters.AddWithValue("@masv", sv.maSV);
-                    command.Parameters.AddWithValue("@tensv", sv.tenSV);
-                    command.Parameters.AddWithValue("@ngaysinh", sv.ngaysinh);
-                    command.Parameters.AddWithValue("@quequan", sv.quequan);
-                    command.Parameters.AddWithValue("@lophoc", sv.lophoc);
+                    command.Parameters.AddWithValue("@masv", sv.MaSV);
+                    command.Parameters.AddWithValue("@tensv", sv.TenSV);
+                    command.Parameters.AddWithValue("@ngaysinh", sv.NgaySinh);
+                    command.Parameters.AddWithValue("@quequan", sv.QueQuan);
+                    command.Parameters.AddWithValue("@lophoc", sv.LopHoc);
 
                     int rowAffected = command.ExecuteNonQuery();
                     return rowAffected > 0;
