@@ -1,21 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Windows.Forms; 
 
 namespace QLyDiemSinhvien.Connection
 {
     public class Connect
     {
         private SqlConnection conn;
-        private string stringConection = "Data Source=VAN_DUC25\\SQLEXPRESS;Initial Catalog=QuanLySinhVien;Integrated Security=True";
+        private string stringConection = "Data Source=VAN_DUC25\\SQLEXPRESS;Initial Catalog=QuanLyDiemSinhVien;Integrated Security=True";
+
         public Connect()
         {
             conn = new SqlConnection(stringConection);
         }
-        public void OpenConection()
+
+        public void OpenConnection()
         {
             try
             {
@@ -24,10 +23,16 @@ namespace QLyDiemSinhvien.Connection
                     conn.Open();
                 }
             }
-            catch (Exception ex) {
-                Console.WriteLine(ex.Message);
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Lỗi kết nối SQL: " + ex.Message);  
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi không xác định: " + ex.Message);  
             }
         }
+
         public void CloseConnection()
         {
             try
@@ -37,12 +42,15 @@ namespace QLyDiemSinhvien.Connection
                     conn.Close();
                 }
             }
-            catch (Exception ex) {
-                Console.WriteLine(ex.Message);
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi đóng kết nối: " + ex.Message);  
             }
         }
-        public SqlConnection GetConnection() {
+
+        public SqlConnection GetConnection()
+        {
             return conn;
-        } 
+        }
     }
 }

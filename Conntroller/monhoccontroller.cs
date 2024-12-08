@@ -1,21 +1,26 @@
-﻿using QLyDiemSinhvien.Model;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using QLyDiemSinhvien.Connection;
+using QLyDiemSinhvien.Model;
 
 namespace QLyDiemSinhvien.Conntroller
 {
-    internal class giangviencontroller
+
+    internal class monhoccontroller
     {
         private Connect conn;
-        public giangviencontroller()
+        public monhoccontroller()
         {
             conn = new Connect();
         }
-        //Lấy tất cả dử liệu của bảng giảng viên
-        public List<giangvienmodel> getAll()
+        public List<monhocmodel> getAll()
         {
-            List<giangvienmodel> giangvienList = new List<giangvienmodel>();
-            string sql = "SELECT idGiangVien, HoTen, Email, Khoa FROM Giangvien";
+            List<monhocmodel> monhocLists = new List<monhocmodel>();
+            string sql = "SELECT * FROM Monhoc";
             try
             {
                 conn.OpenConnection();
@@ -25,19 +30,17 @@ namespace QLyDiemSinhvien.Conntroller
                     {
                         while (reader.Read())
                         {
-                            giangvienmodel gv = new giangvienmodel
+                            monhocmodel mh = new monhocmodel()
                             {
-                                maGV = !reader.IsDBNull(0) ? reader.GetInt32(0) : 0,
-                                tenGV = !reader.IsDBNull(1) ? reader.GetString(1) : string.Empty,
-                                email = !reader.IsDBNull(2) ? reader.GetString(2) : string.Empty,
-                                khoa = !reader.IsDBNull(3) ? reader.GetString(3) : string.Empty
+                                id = !reader.IsDBNull(0) ? reader.GetInt32(0) : 0,
+                                tenMH = !reader.IsDBNull(1) ? reader.GetString(1) : string.Empty,
+                                soTC = !reader.IsDBNull(2) ? reader.GetInt32(2) : 0
                             };
-                            giangvienList.Add(gv);
                         }
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception ex) 
             {
                 Console.WriteLine(ex.Message);
             }
@@ -45,23 +48,49 @@ namespace QLyDiemSinhvien.Conntroller
             {
                 conn.CloseConnection();
             }
-            return giangvienList;
+            return monhocLists;
         }
-        //Thêm giảng viên
-        public bool addGiangvien(giangvienmodel gv)
+        public bool addMonhoc(monhocmodel mh)
         {
-            string sql = "INSERT INTO GiangVien(Hoten, Email, Khoa) VALUE (@hoten, @email, @khoa)";
-
+            string sql = "INSERT INTO Monhoc( tenMon, TC) VALUE(@idmon, @tenmon, @tc)";
             try
             {
                 conn.OpenConnection();
                 using (SqlCommand command = new SqlCommand(sql, conn.GetConnection()))
                 {
-                    command.Parameters.AddWithValue("@hoten", gv.tenGV);
-                    command.Parameters.AddWithValue("@email", gv.email);
-                    command.Parameters.AddWithValue("@khoa", gv.khoa);
+                    command.Parameters.AddWithValue("@tenmon", mh.tenMH);
+                    command.Parameters.AddWithValue("@tc", mh.soTC);
 
                     int rowsAffected = command.ExecuteNonQuery();
+
+                    return rowsAffected > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally 
+            {
+                conn.CloseConnection();
+            }
+            return false;
+        }
+        public bool editMonhoc(monhocmodel mh)
+        {
+            string sql = "UPDATE Monhoc SET  tenMon = @tenmon, TC = @tc WHERE idMonhoc = @idmonhoc";
+            try
+            {
+                conn.OpenConnection();
+                using (SqlCommand command = new SqlCommand())
+                {
+
+                    command.Parameters.AddWithValue("@tenmon", mh.tenMH);
+                    command.Parameters.AddWithValue("@tc", mh.soTC);
+                    command.Parameters.AddWithValue("@idmonhoc", mh.id);
+
+                    int rowsAffected = command.ExecuteNonQuery();
+
                     return rowsAffected > 0;
                 }
             }
@@ -75,38 +104,9 @@ namespace QLyDiemSinhvien.Conntroller
             }
             return false;
         }
-        //Sửa giảng vien 
-        public bool editGiangvien(giangvienmodel gv)
+        public bool deleteMonhoc(int id)
         {
-            string sql = "UPDATE Giangvien SET HoTen = @hoten,  Email = @email, Khoa = @khoa WHERE idGiangvien = @idgiangvien";
-            try
-            {
-                conn.OpenConnection();
-                using (SqlCommand command = new SqlCommand(sql, conn.GetConnection()))
-                {
-                    command.Parameters.AddWithValue("@hoten", gv.tenGV);
-                    command.Parameters.AddWithValue("@email", gv.email);
-                    command.Parameters.AddWithValue("@khoa", gv.khoa);
-                    command.Parameters.AddWithValue("@idGiangvien", gv.maGV);
-
-                    int rowsAffected = command.ExecuteNonQuery();
-                    return rowsAffected > 0;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                conn.CloseConnection();
-            }
-            return false;
-        }
-        //Xóa giảng viên
-        public bool deleteGiangvien(int id)
-        {
-            string sql = "DETELE FROM Giangvien WHERE idGiangvien = @id";
+            string sql = "DELETE FROM Monhoc WHERE idMonhoc = @id";
             try
             {
                 conn.OpenConnection();
@@ -114,18 +114,19 @@ namespace QLyDiemSinhvien.Conntroller
                 {
                     command.Parameters.AddWithValue("@id", id);
 
+
                     int rowsAffected = command.ExecuteNonQuery();
 
                     return rowsAffected > 0;
                 }
             }
-            catch (Exception ex)
+            catch (SqlException ex)
             {
                 Console.WriteLine(ex.Message);
             }
-            finally
+            finally 
             {
-                conn.CloseConnection(); 
+                conn.CloseConnection();
             }
             return false;
         }

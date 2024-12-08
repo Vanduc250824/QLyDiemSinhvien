@@ -5,26 +5,27 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using QLyDiemSinhvien.Connection;
 namespace QLyDiemSinhvien.Conntroller
 {
     internal class sinhviencontroller
     {
-        private SqlConnection conn;
-        
+        private Connect conn;
+       
         public sinhviencontroller()
         {
-            conn = new SqlConnection();
+            conn = new Connect();
             
         }
+        //Lấy tất cả giá trị của bảng Sinh viên
         public List<sinhvienmodel> getAll()
         {
             List<sinhvienmodel> sinhvienList = new List<sinhvienmodel>();
             string query = "SELECT * FROM Sinhvien";
             try
             {
-                conn.Open();
-                using (SqlCommand command = new SqlCommand(query, conn))
+                conn.OpenConnection();
+                using (SqlCommand command = new SqlCommand(query, conn.GetConnection()))
                 {
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
@@ -32,12 +33,13 @@ namespace QLyDiemSinhvien.Conntroller
                         {
                             sinhvienmodel sv = new sinhvienmodel
                             {
-                                maSV = reader["MaSV"] != DBNull.Value ? Convert.ToInt32(reader["MaSV"]) : 0,
-                                tenSV = reader["TenSV"] != DBNull.Value ? reader["MaSV"].ToString() : string.Empty,
-                                ngaysinh = reader["Ngaysinh"] != DBNull.Value ? Convert.ToDateTime(reader["Ngaysinh"]) : DateTime.MinValue,
-                                quequan = reader["Quequan"] != DBNull.Value ? reader["Quequan"].ToString() : string.Empty,
-                                lophoc = reader["Lophoc"] != DBNull.Value ? reader["Lophoc"].ToString() : string.Empty
+                                maSV = !reader.IsDBNull(0) ? reader.GetInt32(0) : 0,
+                                tenSV = !reader.IsDBNull(1) ? reader.GetString(1) : string.Empty,
+                                ngaysinh = !reader.IsDBNull(2) ? reader.GetDateTime(2) : DateTime.MinValue,
+                                quequan = !reader.IsDBNull(3) ? reader.GetString(3) : string.Empty,
+                                lophoc = !reader.IsDBNull(4) ? reader.GetString(4) : string.Empty
                             };
+                            sinhvienList.Add(sv);
                         }
                     }
                 }
@@ -48,22 +50,19 @@ namespace QLyDiemSinhvien.Conntroller
             }
             finally
             {
-                if (conn.State == System.Data.ConnectionState.Open) 
-                {
-                    conn.Close();
-                } 
+                 conn.CloseConnection();
             }
             return sinhvienList;
         }
+        //Thêm sinh viên
         public bool addStudent(sinhvienmodel sv)
         {
-            string sql = "INSERT INTO Sinhvien(MaSV, TenSV, Ngaysinh, Quequan, Lophoc) VALUE(@masv, @tensv, @ngaysinh, @quequan, @lophoc)";
+            string sql = "INSERT INTO Sinhvien(TenSV, Ngaysinh, Quequan, Lophoc) VALUE(@tensv, @ngaysinh, @quequan, @lophoc)";
             try
             {
-                conn.Open();
-                using (SqlCommand command = new SqlCommand(sql, conn))
+                conn.OpenConnection();
+                using (SqlCommand command = new SqlCommand(sql, conn.GetConnection()))
                 {
-                    command.Parameters.AddWithValue("@masv", sv.maSV);
                     command.Parameters.AddWithValue("@tensv", sv.tenSV);
                     command.Parameters.AddWithValue("@ngaysinh", sv.ngaysinh);
                     command.Parameters.AddWithValue("@quequan", sv.quequan);
@@ -78,20 +77,18 @@ namespace QLyDiemSinhvien.Conntroller
             }
             finally
             {
-                if(conn.State == System.Data.ConnectionState.Open)
-                {
-                    conn.Close();
-                }
+                conn.CloseConnection();
             }
             return false;
         }
+        //Sửa giảng viên
         public bool editStudent(sinhvienmodel sv)
         {
             string sql = "UPDATE Sinhvien SET TenSV = @tensv, Ngaysinh = @ngaysinh, Quequan = @quequan, Lophoc = @lophoc WHERE MaSV = @masv";
             try
             {
-                conn.Open();
-                using (SqlCommand command = new SqlCommand(sql, conn))
+                conn.OpenConnection();
+                using (SqlCommand command = new SqlCommand(sql, conn.GetConnection()))
                 {
                     command.Parameters.AddWithValue("@masv", sv.maSV);
                     command.Parameters.AddWithValue("@tensv", sv.tenSV);
@@ -109,20 +106,18 @@ namespace QLyDiemSinhvien.Conntroller
             }
             finally 
             {
-                if(conn.State == System.Data.ConnectionState.Open)
-                {
-                    conn.Close();
-                }
+                conn.CloseConnection();
             }
             return false;
         }
+        //Xóa giảng viên
         public bool deleteStudent(int id) 
         {
-            string sql = "DELETE FROM MaSV = @masv";
+            string sql = "DELETE FROM Sinhvien WHERE MaSV = @masv";
             try
             {
-                conn.Open();
-                using (SqlCommand command = new SqlCommand(sql, conn))
+                conn.OpenConnection();
+                using (SqlCommand command = new SqlCommand(sql, conn.GetConnection()))
                 {
                     command.Parameters.AddWithValue("@masv", id);
 
@@ -136,10 +131,7 @@ namespace QLyDiemSinhvien.Conntroller
             }
             finally
             {
-                if(conn.State == System.Data.ConnectionState.Open)
-                {
-                    conn.Close();
-                }
+                 conn.CloseConnection();
             }
             return false;
         }
